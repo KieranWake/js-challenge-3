@@ -1,8 +1,11 @@
 function timeForMilkAndCookies(date) {
     const [month, day] = [date.getMonth(), date.getDate()]; 
 
-    if ()
-    
-
+    if (month === 11 && day === 24) {
+        return true;
+    } else {
+        return false;
+    }
 }
 
+console.log()
