@@ -8,4 +8,4 @@ function timeForMilkAndCookies(date) {
     }
 }
 
-console.log()
+console.log(timeForMilkAndCookies(2012, 9, 23));
