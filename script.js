@@ -1,5 +1,6 @@
 function timeForMilkAndCookies(date) {
-    const [month, day] = [date.getMonth(), date.getDate()]; 
+    const month = date.getMonth();
+    const day = date.getDate(); 
 
     if (month === 11 && day === 24) {
         return true;
@@ -8,4 +9,7 @@ function timeForMilkAndCookies(date) {
     }
 }
 
-console.log(timeForMilkAndCookies(2012, 9, 23));
+console.log(timeForMilkAndCookies(new Date(2013, 11, 24)));
+
+
+
